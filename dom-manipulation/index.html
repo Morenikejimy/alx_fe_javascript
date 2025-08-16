@@ -88,6 +88,20 @@
     <button id="exportQuotes">Export Quotes</button>
     <input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
   </div>
+
+ <!-- ****** ADD THESE NEW HTML ELEMENTS FOR PROJECT 3  ****** -->
+    <select id="categoryFilter" onchange="filterQuotes()">
+    <option value="all">All Categories</option>
+    <!-- Dynamically populated categories -->
+  </select>
+
+  <!-- ****** NEW FOR PROJECT 3: Category Filter Dropdown ****** -->
+  <div class="filter-section">
+    <h2>Filter Quotes by Category</h2>
+    <select id="categoryFilter" onchange="filterQuotes()">
+      <option value="all">All Categories</option>
+      <!-- Dynamically populated categories will go here by 
+  
   
   <script src="script.js"></script>
 </body>
